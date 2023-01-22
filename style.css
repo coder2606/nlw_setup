@@ -59,11 +59,15 @@ button {
 
   margin-top: 58px;
 }
-.habits p {
-  font-family: 'Inter';
-  font-weight: 600;
-  font-size: 12px;
+.habit p {
+  margin-bottom: 8px;
+  font-family: 'Roboto Mono';
+  font-size: 20px;
   line-height: 125%;
+
+  text-align: center;
+
+  color: #a1a1aa;
 }
 .habit {
   width: 64px;
