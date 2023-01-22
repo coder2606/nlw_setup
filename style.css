@@ -59,6 +59,12 @@ button {
 
   margin-top: 58px;
 }
+.habits p {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
 .habit {
   width: 64px;
   height: 64px;
