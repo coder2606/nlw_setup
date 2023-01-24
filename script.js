@@ -17,10 +17,14 @@ function add() {
   nlwSetup.addDay(today)
 }
 
+// Esta funcao e' para adcionar um novo registro de habitos do dia ao clicar no botao
+
 function save() {
   localStorage.setItem('qualquernome', JSON.stringify(nlwSetup.data))
 }
- 
+
+// Esta funcao salva todas alteracoes feitas no formulario no local storage no navegador
+
 const data = JSON.parse(localStorage.getItem('qualquernome')) || {}
 nlwSetup.setData(data)
 nlwSetup.load()
